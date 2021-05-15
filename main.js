@@ -96,3 +96,7 @@ function my_touchmove(e)
         last_position_of_touch_x = current_position_of_touch_x; 
         last_position_of_touch_y = current_position_of_touch_y;
     }
+
+    function clearArea(){
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    }
